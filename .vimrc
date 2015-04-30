@@ -31,5 +31,6 @@ endfunction
 
 map <F9> :call ToggleViHardMode()<CR>
 map <F10> :call EchoCurrentDifficulty()<CR>
+map <F11> :set invnumber<CR>
 
 call ToggleViHardMode()
