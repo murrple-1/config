@@ -1,0 +1,15 @@
+[core]
+        autocrlf = false
+        editor = vim
+        preloadindex = true
+        fscache = true
+[credential]
+        helper = cache --timeout=86400
+[user]
+        name = Murray Christopherson
+[push]
+        default = nothing
+[pack]
+        threads = 6
+[gc]
+        auto = 256
